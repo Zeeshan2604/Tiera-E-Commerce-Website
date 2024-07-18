@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tiera</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+</head>
+<body style="background-image: url(Assets/Banner/bghome.jpg); background-size: cover; width: 100%;">
+    
+    <section id="header">
+        <a href="#"><img src="Assets/TieraLogoNewTp.png" class="logo" 
+           height="30px"  alt=""></a>
+        <div>
+            <ul id="navbar">
+                <li><a class="active" href="index.html">Home</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="cart.html">Cart</a></li>
+                <a href="#" id="close"><i class="fa fa-times"></i></a>
+            </ul>
+        </div>
+
+        <div id="mobile">
+            <i id="bar" class="fas fa-outdent"></i>
+        </div>
+    </section>
+
+    <section id="hero">
+        <h4>WELCOME TO TIERA</h4>
+        <h2>Explore The World </h2>
+        <h2>Of Fashion</h2>
+        <h1>Super Value Deals</h1>
+        <p>Save more with coupons & up to 70% off! </p>
+        <button onclick="window.location.href='shop.html';">Shop Now</button>
+
+    </section>
+
+    <section id="feature" class="section-p1">
+        <div class="fe-box">
+            <img src="Assets/Features/2.png" height="200px" alt="">
+        </div>
+        <div class="fe-box">
+            <img src="Assets/Features/Online Order.png" height="200px" alt="">
+        </div>
+        <div class="fe-box">
+            <img src="Assets/Features/SaveMoney.png" height="200px" alt="">
+        </div>
+        <div class="fe-box">
+            <img src="Assets/Features/Promotions.png" height="200px" alt="">
+        </div>
+        <div class="fe-box">
+            <img src="Assets/Features/Support.png" height="200px" alt="">
+        </div>
+        
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>Featured Products</h2>
+        <p class="ppp">Summer Collection New Modern Design</p>
+        <div class="pro-container">
+            <div class="pro" onclick="changewin()">
+                <img src="Assets/products/newprod/j1.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Mens BodyFit Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$69</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro" onclick="changewin(); changeimgf2()" value="Call2Functions">
+                <img src="Assets/products/newprod/j2.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Mens BodyFit Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$49</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro" onclick="changewin()">
+                <img src="Assets/products/newprod/j3.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Fleece Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$55</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro" onclick="changewin()">
+                <img src="Assets/products/newprod/j4.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Fleece Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro" onclick="changewin()">
+                <img src="Assets/products/newprod/j6.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Denim Casual Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$65</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro" onclick="changewin()">
+                <img src="Assets/products/newprod/j7.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Denim Casual Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$79</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro" onclick="changewin()">
+                <img src="Assets/products/newprod/jl1.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Leather Premium Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$37</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro" onclick="changewin()">
+                <img src="Assets/products/newprod/jl2.jpeg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Leather Premium Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$29</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="banner" class="section-m1">
+        <h4 style="color: rgb(91, 46, 46);">Repair Services</h4>
+        <h2>Up to <span>70% Off</span>- All Jackets & Accessories</h2>
+        <button class="normal">Explore More</button>
+
+    </section>
+
+    <section id="product1" class="section-p1">
+        <h2>New Arrivals</h2>
+        <p class="ppp">All New Collection is here</p>
+        <div class="pro-container">
+            <div class="pro">
+                <img src="Assets/products/newprod/t1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Casual T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$69</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="Assets/products/newprod/t2.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Casual T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$49</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="Assets/products/newprod/t3.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Casual T-shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$55</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="Assets/products/newprod/jt1.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Track Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$40</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="Assets/products/n5.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Plane Blue Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$65</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="Assets/products/n6.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Grey Shorts</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$79</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="Assets/products/n7.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Mac Jacket</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$37</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+            <div class="pro">
+                <img src="Assets/products/n8.jpg" alt="">
+                <div class="des">
+                    <span>adidas</span>
+                    <h5>Black Shirt</h5>
+                    <div class="star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h4>$29</h4>
+                </div>
+                <a href="#" class="cart"><img src="Assets/cart.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+
+    <section id="sm-banner" class="section-p1">
+        <div class="banner-box">
+            <h4>crazy deals</h4>
+            <h2>buy 1 get 1 free</h2>
+            <span>The best classic dress is on sale at Tiera</span>
+            <button class="white">Learn More</button>
+        </div>
+        <div class="banner-box banner-box2">
+            <h4>spring summer</h4>
+            <h2>upcoming season</h2>
+            <span>The elegance is at Tiera</span>
+            <button class="white">Collection</button>
+        </div>
+    </section>
+
+    <section id="banner3">
+        <div class="banner-box">
+            <h2>upcoming season</h2>
+            <h3>Winter Collection -40% OFF</h3>
+        </div>
+        <div class="banner-box banner-box2">
+            <h2>new footwear collection</h2>
+            <h3>Spring /Summer 2024</h3>
+        </div>
+        <div class="banner-box banner-box3">
+            <h2>T-shirts</h2>
+            <h3>New Trendy Wear</h3>
+        </div>
+    </section>
+
+    <footer class="section-p1">
+        <div class="col">
+            <img class="logo" src="Assets/TieraLogoNewTp.png" width="70px" alt="">
+            <h4>Contact</h4>
+            <p><Strong>Address:</Strong> 234 Washington Street, lane 9, Boston</p>
+            <p><Strong>Phone:</Strong> +101 4044040454</p>
+            <p><Strong>Hours:</Strong> 10:00 - 18:00, Mon - Sat</p>
+            <div class="follow">
+                <h4>Follow us</h4>
+                <div class="icon">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-pinterest-p"></i>
+                    <i class="fab fa-youtube"></i>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="col">
+            <h4>About</h4>
+            <a href="about.html">About Us</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms & Conditions</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="col">
+            <h4>My Account</h4>
+            <a href="#">Sign In</a>
+            <a href="cart.html">View Cart</a>
+            <a href="#">My Wishlist</a>
+            <a href="#">Track My Order</a>
+            <a href="#">Help</a>
+        </div>
+
+        <div class="copywrite">
+            <p>© 2024, zeeshan shaikh - Tiera Fashion</p>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
